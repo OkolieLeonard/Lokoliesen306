@@ -1,0 +1,26 @@
+# SEN306 - Facade Pattern Quiz Answers
+# okolie leonard chiedu
+
+1. Primary goal of Facade pattern?
+   Answer: B) Simplify a complex subsystem interface
+   Reason: Facade provides a single simplified entry point that orchestrates
+   multiple subsystem calls so the client does not have to.
+
+2. True or False: Facade hides subsystems so clients cannot access them directly?
+   Answer: FALSE
+   Reason: Subsystems are NOT hidden. Clients CAN still call them directly.
+   The facade is a convenience layer, not an enforced barrier.
+
+3. When should you NOT use a Facade?
+   Answer: B) When the subsystem is already very simple
+   Reason: Adding a facade over a simple system adds unnecessary indirection.
+
+4. How does Facade differ from Adapter?
+   Answer: B) Facade simplifies, Adapter converts interfaces
+   Reason: Facade reduces complexity across multiple subsystems.
+   Adapter makes an incompatible interface compatible with a required one.
+
+5. Which principle does Facade heavily support?
+   Answer: C) Principle of Least Knowledge (Law of Demeter)
+   Reason: Client only talks to the facade and has no knowledge of the
+   underlying subsystems, as the Law of Demeter prescribes.
